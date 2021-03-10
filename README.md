@@ -14,6 +14,9 @@
 2. Context load
 - context.load.sh utility for loading site's k8s context
 
+3. Require
+- To use kubernetes cluster context, the host machine must be installed kubectl
+
 ## How to initialize the context
 1. Define the k8s environment in inventory.context
 2. Collect the k8s environment certificate, and token
